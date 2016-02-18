@@ -18,16 +18,10 @@ Gem::Specification.new do |s|
   s.test_files = Dir["spec/**/*"]
 
   s.add_dependency "rails", "~> 4.2.1"
-  s.add_development_dependency "byebug"
   s.add_development_dependency "bundler", "~> 1.8"
-  s.add_development_dependency "coveralls", "~> 0.8"
-  s.add_development_dependency "guard-rspec", "~> 4.5"
-  s.add_development_dependency "rb-fsevent", "~> 0.9"
-  s.add_development_dependency "pry-byebug"
-  s.add_development_dependency "shoulda-matchers", "~> 2.8"
   s.add_development_dependency "rake", "~> 10.0"
-  s.add_development_dependency 'rspec-rails'
-  s.add_development_dependency 'sqlite3'
+  s.add_development_dependency 'rspec-rails', '~> 3.4.2'
+  s.add_development_dependency 'sqlite3', '~> 1.3.11'
 
 
 end
