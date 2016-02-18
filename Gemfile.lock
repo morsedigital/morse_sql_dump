@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    morse_sql_dump (0.0.4)
+    morse_sql_dump (0.0.5)
       rails (~> 4.2.1)
 
 GEM

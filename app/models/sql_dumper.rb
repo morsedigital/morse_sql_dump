@@ -56,7 +56,7 @@ class SqlDumper
   def prepare_dump_paths
     time_str = Time.now.strftime('%d.%m.%y_%H.%M.%S')
     @temp_dir = File.join(rails_root, DUMP_DIR)
-    @dump_file_name = "dump_#{time_str}.sql"
+    @dump_file_name = "#{@mysql_database}_#{time_str}.sql"
     @dump_file = File.join(@temp_dir, @dump_file_name)
     @archive_file_name = "dump_#{time_str}.tar.gz"
     @archive_file = File.join(@temp_dir, @archive_file_name)
