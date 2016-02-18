@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = MorseSqlDump::VERSION
   s.authors     = ["fred mcgroarty"]
   s.email       = ["mcfremac@icloud.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of MorseSqlDump."
-  s.description = "TODO: Description of MorseSqlDump."
+  s.homepage    = "https://github.com/morsedigital/morse_sql_dump"
+  s.summary     = "Mysql Dumper"
+  s.description = "Morse Gem for exporting a snapshot of mysql db's. To be used ONLY in the Klingon afterlife, Stovokor."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
