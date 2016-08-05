@@ -1,9 +1,7 @@
 PATH
   remote: .
   specs:
-    morse_sql_dump (1.0.0)
-      rails (>= 5.0.0)
-
+    morse_sql_dump (1.0.1)
 GEM
   remote: https://rubygems.org/
   specs:
@@ -133,6 +131,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.8)
   morse_sql_dump!
+  rails (>= 5.0.0)
   rake (~> 10.0)
   rspec-rails (~> 3.4)
   sqlite3 (~> 1.3)
